@@ -1,0 +1,74 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .counter {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+  }
+  
+  .logo {
+    margin-bottom: 20px;
+  }
+  
+  .instagram-logo {
+    width: 50px; /* Adjust size as necessary */
+    height: 50px;
+  }
+  
+  .follower-display {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .digit {
+    width: 50px;
+    height: 70px;
+    margin: 0 5px;
+    background: #e0e0e0;
+    color: #333;
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 70px;
+    text-align: center;
+    border: 1px solid #999;
+    border-radius: 5px;
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.1), 0px 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  
+  .digit:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.2);
+    transform: translateY(-50%);
+  }
+  
+  button {
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  button:hover {
+    background-color: #357ABD;
+  }
